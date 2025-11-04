@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-11-04T14:24:14.749555",
+  "mode": "quick",
+  "findings": [
+    "Domain network firewall is ON ✓",
+    "Private network firewall is OFF",
+    "Public network firewall is ON ✓",
+    "Open port 445 (SMB) detected",
+    "No pending Windows updates ✓",
+    "Windows Defender is ENABLED ✓",
+    "Additional antivirus software detected",
+    "Weak WiFi password detected for 'Abhiram' (very weak)",
+    "Weak WiFi password detected for 'realme 7 Pro' (very weak)",
+    "Weak WiFi password detected for 'Print_Station' (very weak)"
+  ],
+  "recommendations": [
+    "Enable Private firewall to protect private networks",
+    "Abhiram: Matches a common/obvious password or is numeric-only",
+    "realme 7 Pro: Matches a common/obvious password or is numeric-only",
+    "Print_Station: Matches a common/obvious password or is numeric-only",
+    "Change weak WiFi passwords to stronger ones (use long passphrases with mixed characters)"
+  ],
+  "score": 76
+}

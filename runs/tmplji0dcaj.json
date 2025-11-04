@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-11-04T17:31:48.243250",
+  "mode": "quick",
+  "findings": [
+    "Domain network firewall is ON ✓",
+    "Private network firewall is ON ✓",
+    "Public network firewall is ON ✓",
+    "Open listening TCP ports: [135, 139, 445, 1042, 1043, 1536, 1537, 1538, 1539, 1540, 1543, 1547, 4301, 5000, 5040, 5426, 5432, 6317, 6318, 7778, 8000, 8065, 8089, 8191, 9012, 9013, 9014, 9997, 11001, 13030, 13031, 13032, 13333, 22112, 24830, 27036, 27060, 27339, 36654, 36655, 42050, 44950, 44960, 50100, 50923, 51100, 55000]",
+    "1 pending Windows update(s) detected",
+    "Windows Defender real-time protection is ENABLED ✓",
+    "No WiFi networks found to check or extraction disabled"
+  ],
+  "recommendations": [
+    "Consider closing or auditing these non-standard ports: [135, 139, 1042, 1043, 1536, 1537, 1538, 1539, 1540, 1543, 1547, 4301, 5000, 5040, 5426, 5432, 6317, 6318, 7778, 8000, 8065, 8089, 8191, 9012, 9013, 9014, 9997, 11001, 13030, 13031, 13032, 13333, 22112, 24830, 27036, 27060, 27339, 36654, 36655, 42050, 44950, 44960, 50100, 50923, 51100, 55000]",
+    "Install pending updates"
+  ],
+  "score": 77,
+  "wifi_data_summary": []
+}

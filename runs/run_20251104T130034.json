@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-11-04T13:00:34.575097",
+  "mode": "quick",
+  "findings": [
+    "Open port 445 (SMB) detected",
+    "Windows Defender is ENABLED ✓",
+    "Additional antivirus software detected"
+  ],
+  "recommendations": [],
+  "components": {
+    "quick": {
+      "score": 20,
+      "max": 20
+    }
+  },
+  "overall_score": 100
+}

@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-11-04T13:07:57.437136",
+  "mode": "quick",
+  "findings": [
+    "Open port 445 (SMB) detected",
+    "No pending Windows updates ✓",
+    "Windows Defender is ENABLED ✓",
+    "Additional antivirus software detected",
+    "Weak WiFi password detected for 'Abhiram' (very weak)",
+    "Weak WiFi password detected for 'realme 7 Pro' (very weak)",
+    "Weak WiFi password detected for 'Print_Station' (very weak)"
+  ],
+  "recommendations": [
+    "Abhiram: Matches a common/obvious password or is numeric-only",
+    "realme 7 Pro: Matches a common/obvious password or is numeric-only",
+    "Print_Station: Matches a common/obvious password or is numeric-only",
+    "Change weak WiFi passwords to stronger ones (use long passphrases with mixed characters)"
+  ],
+  "components": {
+    "quick": {
+      "score": 100,
+      "max": 20
+    },
+    "wifi": {
+      "score": 15,
+      "max": 30
+    }
+  },
+  "overall_score": 230
+}

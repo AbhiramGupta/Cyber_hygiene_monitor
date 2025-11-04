@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-11-04T22:36:31.798366",
+  "mode": "quick",
+  "findings": [
+    "Domain network firewall is ON ✓",
+    "Private network firewall is ON ✓",
+    "Public network firewall is ON ✓",
+    "Loopback-only port 1042 detected (not externally reachable)",
+    "Loopback-only port 1043 detected (not externally reachable)",
+    "Loopback-only port 11001 detected (not externally reachable)",
+    "Loopback-only port 13030 detected (not externally reachable)",
+    "Loopback-only port 13031 detected (not externally reachable)",
+    "Loopback-only port 13032 detected (not externally reachable)",
+    "Loopback-only port 13333 detected (not externally reachable)",
+    "Loopback-only port 22112 detected (not externally reachable)",
+    "Loopback-only port 24830 detected (not externally reachable)",
+    "Loopback-only port 27060 detected (not externally reachable)",
+    "Loopback-only port 27339 detected (not externally reachable)",
+    "Loopback-only port 36654 detected (not externally reachable)",
+    "Loopback-only port 36655 detected (not externally reachable)",
+    "Loopback-only port 42050 detected (not externally reachable)",
+    "Loopback-only port 4301 detected (not externally reachable)",
+    "Loopback-only port 44950 detected (not externally reachable)",
+    "Loopback-only port 44960 detected (not externally reachable)",
+    "Loopback-only port 5000 detected (not externally reachable)",
+    "Loopback-only port 50100 detected (not externally reachable)",
+    "Loopback-only port 50923 detected (not externally reachable)",
+    "Loopback-only port 51100 detected (not externally reachable)",
+    "Loopback-only port 55000 detected (not externally reachable)",
+    "Loopback-only port 6000 detected (not externally reachable)",
+    "Loopback-only port 6317 detected (not externally reachable)",
+    "Loopback-only port 6318 detected (not externally reachable)",
+    "Loopback-only port 7778 detected (not externally reachable)",
+    "Loopback-only port 8065 detected (not externally reachable)",
+    "Open port 135 detected",
+    "Open port 139 detected",
+    "Open port 1536 detected",
+    "Open port 1537 detected",
+    "Open port 1538 detected",
+    "Open port 1539 detected",
+    "Open port 1540 detected",
+    "Open port 1543 detected",
+    "Open port 1547 detected",
+    "Open port 27036 detected",
+    "Open port 5040 detected",
+    "Open port 5426 detected",
+    "Open port 5432 detected",
+    "Open port 7680 detected",
+    "Open port 8000 detected",
+    "Open port 8089 detected",
+    "Open port 8191 detected",
+    "Open port 9012 detected",
+    "Open port 9013 detected",
+    "Open port 9014 detected",
+    "Open port 9997 detected",
+    "System/default port 445 (SMB) is listening",
+    "1 pending Windows update(s) detected — showing up to 5 titles:",
+    " - Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.439.691.0) - Current Channel (Broad)",
+    "Windows Defender antivirus engine is ENABLED ✓",
+    "Windows Defender real-time protection is ENABLED ✓",
+    "Windows Defender AMService appears to be running ✓",
+    "Additional antivirus product(s) detected on system",
+    "Weak WiFi password detected for 'Abhiram' (very weak)",
+    "Weak WiFi password detected for 'Print_Station' (very weak)"
+  ],
+  "recommendations": [
+    "Open Settings → Update & Security and install pending updates",
+    "Abhiram: Matches a common/obvious password or is numeric-only",
+    "Print_Station: Matches a common/obvious password or is numeric-only",
+    "Change weak WiFi passwords to stronger ones (use long passphrases with mixed characters)"
+  ],
+  "score": 67,
+  "system_hardening": {
+    "antivirus": [],
+    "updates": []
+  },
+  "network_devices": [
+    {
+      "ip": "192.168.1.1",
+      "mac": "f8-c4-f3-74-25-f9",
+      "hostname": null,
+      "risk": "unknown"
+    },
+    {
+      "ip": "192.168.1.255",
+      "mac": "ff-ff-ff-ff-ff-ff",
+      "hostname": null,
+      "risk": "unknown"
+    },
+    {
+      "ip": "224.0.0.2",
+      "mac": "01-00-5e-00-00-02",
+      "hostname": "all-routers.mcast.net",
+      "risk": "unknown"
+    },
+    {
+      "ip": "224.0.0.22",
+      "mac": "01-00-5e-00-00-16",
+      "hostname": "igmp.mcast.net",
+      "risk": "unknown"
+    },
+    {
+      "ip": "224.0.0.251",
+      "mac": "01-00-5e-00-00-fb",
+      "hostname": "mdns.mcast.net",
+      "risk": "unknown"
+    },
+    {
+      "ip": "224.0.0.252",
+      "mac": "01-00-5e-00-00-fc",
+      "hostname": null,
+      "risk": "unknown"
+    },
+    {
+      "ip": "239.255.255.250",
+      "mac": "01-00-5e-7f-ff-fa",
+      "hostname": null,
+      "risk": "unknown"
+    },
+    {
+      "ip": "255.255.255.255",
+      "mac": "ff-ff-ff-ff-ff-ff",
+      "hostname": null,
+      "risk": "unknown"
+    }
+  ]
+}

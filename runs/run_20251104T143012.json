@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-11-04T14:30:12.336958",
+  "mode": "quick",
+  "findings": [
+    "Domain network firewall is ON ✓",
+    "Private network firewall is OFF",
+    "Public network firewall is ON ✓",
+    "Open port 445 (SMB) detected",
+    "No pending Windows updates ✓",
+    "Windows Defender is ENABLED ✓",
+    "Additional antivirus software detected",
+    "Weak WiFi password detected for 'Abhiram' (very weak)",
+    "Weak WiFi password detected for 'realme 7 Pro' (very weak)",
+    "Weak WiFi password detected for 'Print_Station' (very weak)",
+    "Windows Defender is ENABLED ✓",
+    "Additional antivirus software detected",
+    "No pending Windows updates ✓"
+  ],
+  "recommendations": [
+    "Enable Private firewall to protect private networks",
+    "Abhiram: Matches a common/obvious password or is numeric-only",
+    "realme 7 Pro: Matches a common/obvious password or is numeric-only",
+    "Print_Station: Matches a common/obvious password or is numeric-only",
+    "Change weak WiFi passwords to stronger ones (use long passphrases with mixed characters)"
+  ],
+  "score": 76,
+  "system_hardening": {
+    "antivirus": [
+      "Windows Defender is ENABLED ✓",
+      "Additional antivirus software detected"
+    ],
+    "updates": [
+      "No pending Windows updates ✓"
+    ]
+  },
+  "network_devices": [
+    {
+      "ip": "192.168.1.1",
+      "mac": "f8-c4-f3-74-25-f9",
+      "hostname": null,
+      "risk": "unknown"
+    },
+    {
+      "ip": "192.168.1.255",
+      "mac": "ff-ff-ff-ff-ff-ff",
+      "hostname": null,
+      "risk": "unknown"
+    },
+    {
+      "ip": "224.0.0.2",
+      "mac": "01-00-5e-00-00-02",
+      "hostname": "all-routers.mcast.net",
+      "risk": "unknown"
+    },
+    {
+      "ip": "224.0.0.22",
+      "mac": "01-00-5e-00-00-16",
+      "hostname": "igmp.mcast.net",
+      "risk": "unknown"
+    },
+    {
+      "ip": "224.0.0.251",
+      "mac": "01-00-5e-00-00-fb",
+      "hostname": "mdns.mcast.net",
+      "risk": "unknown"
+    },
+    {
+      "ip": "224.0.0.252",
+      "mac": "01-00-5e-00-00-fc",
+      "hostname": null,
+      "risk": "unknown"
+    },
+    {
+      "ip": "239.255.255.250",
+      "mac": "01-00-5e-7f-ff-fa",
+      "hostname": null,
+      "risk": "unknown"
+    },
+    {
+      "ip": "255.255.255.255",
+      "mac": "ff-ff-ff-ff-ff-ff",
+      "hostname": null,
+      "risk": "unknown"
+    }
+  ]
+}

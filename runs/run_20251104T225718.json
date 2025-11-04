@@ -1,0 +1,128 @@
+{
+  "timestamp": "2025-11-04T22:57:18.277239",
+  "mode": "quick",
+  "findings": [
+    "Domain network firewall is ON ✓",
+    "Private network firewall is ON ✓",
+    "Public network firewall is ON ✓",
+    "Loopback-only port 1042 detected (not externally reachable)",
+    "Loopback-only port 1043 detected (not externally reachable)",
+    "Loopback-only port 11001 detected (not externally reachable)",
+    "Loopback-only port 13030 detected (not externally reachable)",
+    "Loopback-only port 13031 detected (not externally reachable)",
+    "Loopback-only port 13032 detected (not externally reachable)",
+    "Loopback-only port 13333 detected (not externally reachable)",
+    "Loopback-only port 22112 detected (not externally reachable)",
+    "Loopback-only port 24830 detected (not externally reachable)",
+    "Loopback-only port 27060 detected (not externally reachable)",
+    "Loopback-only port 27339 detected (not externally reachable)",
+    "Loopback-only port 36654 detected (not externally reachable)",
+    "Loopback-only port 36655 detected (not externally reachable)",
+    "Loopback-only port 42050 detected (not externally reachable)",
+    "Loopback-only port 4301 detected (not externally reachable)",
+    "Loopback-only port 44950 detected (not externally reachable)",
+    "Loopback-only port 44960 detected (not externally reachable)",
+    "Loopback-only port 5000 detected (not externally reachable)",
+    "Loopback-only port 50100 detected (not externally reachable)",
+    "Loopback-only port 50923 detected (not externally reachable)",
+    "Loopback-only port 51100 detected (not externally reachable)",
+    "Loopback-only port 55000 detected (not externally reachable)",
+    "Loopback-only port 6000 detected (not externally reachable)",
+    "Loopback-only port 6317 detected (not externally reachable)",
+    "Loopback-only port 6318 detected (not externally reachable)",
+    "Loopback-only port 7778 detected (not externally reachable)",
+    "Loopback-only port 8065 detected (not externally reachable)",
+    "Open external port 1536 detected (PID 1804 / lsass.exe)",
+    "Open external port 1537 detected (PID 1636 / wininit.exe)",
+    "Open external port 1538 detected (PID 3500 / svchost.exe)",
+    "Open external port 1539 detected (PID 3688 / svchost.exe)",
+    "Open external port 1540 detected (PID 5292 / spoolsv.exe)",
+    "Open external port 1543 detected (PID 5972 / GameManagerService3.exe)",
+    "Open external port 1547 detected (PID 1776 / services.exe)",
+    "Open external port 27036 detected (PID 19072 / steam.exe)",
+    "Open external port 5040 detected (PID 13648 / svchost.exe)",
+    "Open external port 5426 detected (PID 4 / System)",
+    "Open external port 5432 detected (PID 8100 / postgres.exe)",
+    "Open external port 7680 detected (PID 17684 / svchost.exe)",
+    "Open external port 8000 detected (PID 6172 / splunkd.exe)",
+    "Open external port 8089 detected (PID 6172 / splunkd.exe)",
+    "Open external port 8191 detected (PID 3220 / mongod.exe)",
+    "Open external port 9012 detected (PID 14420 / ArmourySocketServer.exe)",
+    "Open external port 9013 detected (PID 14420 / ArmourySocketServer.exe)",
+    "Open external port 9014 detected (PID 12336 / ArmouryHtmlDebugServer.exe)",
+    "Open external port 9997 detected (PID 6172 / splunkd.exe)",
+    "System/default port 445 (SMB) is listening",
+    "VULNERABLE port 135 (Port 135) exposed (PID 1380 / svchost.exe)",
+    "VULNERABLE port 139 (Port 139) exposed (PID 4 / System)",
+    "1 pending Windows update(s) detected — showing up to 5 titles:",
+    " - Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.439.691.0) - Current Channel (Broad)",
+    "Windows Defender antivirus engine is ENABLED ✓",
+    "Windows Defender real-time protection is ENABLED ✓",
+    "Windows Defender AMService appears to be running ✓",
+    "Additional antivirus product(s) detected on system",
+    "Weak WiFi password detected for 'Abhiram' (very weak)",
+    "Weak WiFi password detected for 'Print_Station' (very weak)"
+  ],
+  "recommendations": [
+    "Close or firewall-block externally-exposed legacy/vulnerable ports (e.g., SMB/NetBIOS/RPC/RDP) if not required.",
+    "Open Settings → Update & Security and install pending updates",
+    "Abhiram: Matches a common/obvious password or is numeric-only",
+    "Print_Station: Matches a common/obvious password or is numeric-only",
+    "Change weak WiFi passwords to stronger ones (use long passphrases with mixed characters)"
+  ],
+  "score": 67,
+  "system_hardening": {
+    "antivirus": [],
+    "updates": []
+  },
+  "network_devices": [
+    {
+      "ip": "192.168.1.1",
+      "mac": "f8-c4-f3-74-25-f9",
+      "hostname": null,
+      "risk": "unknown"
+    },
+    {
+      "ip": "192.168.1.255",
+      "mac": "ff-ff-ff-ff-ff-ff",
+      "hostname": null,
+      "risk": "unknown"
+    },
+    {
+      "ip": "224.0.0.2",
+      "mac": "01-00-5e-00-00-02",
+      "hostname": "all-routers.mcast.net",
+      "risk": "unknown"
+    },
+    {
+      "ip": "224.0.0.22",
+      "mac": "01-00-5e-00-00-16",
+      "hostname": "igmp.mcast.net",
+      "risk": "unknown"
+    },
+    {
+      "ip": "224.0.0.251",
+      "mac": "01-00-5e-00-00-fb",
+      "hostname": "mdns.mcast.net",
+      "risk": "unknown"
+    },
+    {
+      "ip": "224.0.0.252",
+      "mac": "01-00-5e-00-00-fc",
+      "hostname": null,
+      "risk": "unknown"
+    },
+    {
+      "ip": "239.255.255.250",
+      "mac": "01-00-5e-7f-ff-fa",
+      "hostname": null,
+      "risk": "unknown"
+    },
+    {
+      "ip": "255.255.255.255",
+      "mac": "ff-ff-ff-ff-ff-ff",
+      "hostname": null,
+      "risk": "unknown"
+    }
+  ]
+}
