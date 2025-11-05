@@ -1,0 +1,54 @@
+# ======================
+# Python & Flask Project
+# ======================
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs and reports
+*.log
+*.csv
+*.json
+*.xml
+*.db
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PyInstaller output
+*.spec
+
+# Flask instance folder
+instance/
+*.bak
+
+# Run history files (keep if you want local, remove if private)
+runs/*.json
+
+# Cache
+.cache/
+pip-log.txt
